@@ -1,0 +1,76 @@
+.alert-list-empty {
+  padding: 1.5rem;
+  text-align: center;
+  color: #637b8e;
+  font-size: 0.85rem;
+}
+
+.alert-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.alert-list-item {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.55rem 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+  cursor: pointer;
+  transition: background 0.1s;
+  font-size: 0.82rem;
+}
+
+.alert-list-item:hover {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.alert-list-item.selected {
+  background: rgba(255, 255, 255, 0.07);
+}
+
+.alert-list-item.no-geo {
+  opacity: 0.7;
+}
+
+.list-sev-badge {
+  font-size: 0.65rem;
+  font-weight: 700;
+  color: #fff;
+  padding: 2px 5px;
+  border-radius: 3px;
+  white-space: nowrap;
+  flex-shrink: 0;
+  letter-spacing: 0.5px;
+}
+
+.list-item-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  min-width: 0;
+  flex: 1;
+}
+
+.list-item-type {
+  color: #c8d8e6;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.list-item-area {
+  color: #637b8e;
+  font-size: 0.75rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.list-no-geo-badge {
+  font-size: 0.7rem;
+  color: #637b8e;
+  flex-shrink: 0;
+}
